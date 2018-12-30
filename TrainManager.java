@@ -1,10 +1,3 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 2
- * CSE214, R11 (Reed Gantz)
- */ 
-
 import java.util.Scanner;
 
 public class TrainManager {
