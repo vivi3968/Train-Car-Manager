@@ -1,12 +1,5 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 2
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
- * class named ProductLoad which contains the product name, it's weight in tons, it's value in dollars, and whether the product is dangerous or not . 
+ * Class named ProductLoad which contains the product name, it's weight in tons, it's value in dollars, and whether the product is dangerous or not . 
  * The mutator methods for weight and value should throw exceptions for illegal arguments (i.e. negative values). 
  */
 public class ProductLoad {
@@ -16,15 +9,11 @@ public class ProductLoad {
 	private double value;
 	private boolean isDangerous;
 	
-	/**
-	 * Constructor for ProductLoad
-	 */
 	public ProductLoad() {
 		
 	}
 	
 	/**
-	 * Constructor for ProductLoad with parameters
 	 * @param name product name
 	 * @param weight weight on product in tons
 	 * @param value value of products in dollars
@@ -38,8 +27,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Accessor method for product name
-	 * 
 	 * @return product name
 	 */
 	public String getProductName() {
@@ -47,8 +34,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Mutator method for product name
-	 * 
 	 * @param name sets name of product
 	 */
 	public void setProductName(String name) {
@@ -56,8 +41,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Accessor method for product weight 
-	 * 
 	 * @return product weight
 	 */
 	public double getWeight() {
@@ -65,8 +48,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Mutator method for product weight
-	 * 
 	 * @param weight weight of product
 	 * @throws IllegalArgumentException if weight is negative
 	 */
@@ -78,8 +59,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Accessor method for product value
-	 * 
 	 * @return value of product
 	 */
 	public double getValue() {
@@ -87,8 +66,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Mutator method for product value
-	 * 
 	 * @param value value of product
 	 * @throws IllegalArgumentException if value is negative
 	 */
@@ -100,8 +77,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Accessor method for danger
-	 * 
 	 * @return whether product is dangerous or not
 	 */
 	public boolean getDanger() {
@@ -109,8 +84,6 @@ public class ProductLoad {
 	}
 	
 	/**
-	 * Mutator method for danger
-	 * 
 	 * @param isDangerous
 	 */
 	public void setDanger(boolean isDangerous) {
