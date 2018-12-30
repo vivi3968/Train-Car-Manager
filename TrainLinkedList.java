@@ -1,10 +1,3 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 2
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * TrainlinkedList which implements a Double-Linked List ADT. 
  */
@@ -19,10 +12,6 @@ public class TrainLinkedList {
 	double totalValue;
 	boolean isDangerous;
 	
-	
-	/**
-	 * Constructor for TrainLinkedList
-	 */
 	public TrainLinkedList() {
 		head = null;
 		tail = null;
