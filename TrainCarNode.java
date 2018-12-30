@@ -1,13 +1,5 @@
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 2
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * Acts as a node wrapper around a TrainCar object. 
- *
  */
 public class TrainCarNode {
 	
@@ -15,16 +7,11 @@ public class TrainCarNode {
 	private TrainCarNode next;
 	private TrainCar car;
 	
-	/**
-	 * Constructor for TrainCarNode
-	 */
 	public TrainCarNode() {
 		
 	}
 	
 	/**
-	 * Constructor for TrainCarNode with parameters
-	 * 
 	 * @param car
 	 */
 	public TrainCarNode(TrainCar car) {
@@ -32,8 +19,6 @@ public class TrainCarNode {
 	}
 	
 	/**
-	 * Accessor method for TrainCarNode before cursor
-	 * 
 	 * @return node at prev
 	 */
 	public TrainCarNode getPrev() {
@@ -41,8 +26,6 @@ public class TrainCarNode {
 	}
 	
 	/**
-	 * Mutator method for TrainCarNode before cursor
-	 * 
 	 * @param prev the node before cursor
 	 */
 	public void setPrev(TrainCarNode prev) {
@@ -50,7 +33,6 @@ public class TrainCarNode {
 	}
 	
 	/**
-	 * Accessor method for node after cursor
 	 * @return node after cursor
 	 */
 	public TrainCarNode getNext() {
@@ -58,8 +40,6 @@ public class TrainCarNode {
 	}
 	
 	/**
-	 * Mutator method for TrainCarNode after cursor
-	 * 
 	 * @param next the node after cursor
 	 */
 	public void setNext(TrainCarNode next) {
@@ -67,7 +47,6 @@ public class TrainCarNode {
 	}
 	
 	/**
-	 * Accessor Method for TrainCar
 	 * @return TrainCar
 	 */
 	public TrainCar getCar() {
@@ -75,7 +54,6 @@ public class TrainCarNode {
 	}
 	
 	/**
-	 * Mutator Method for TrainCar
 	 * @param car
 	 */
 	public void setCar(TrainCar car) {
